@@ -5,7 +5,7 @@ import React from "react"
 
 export default function Header() {
     return(
-        <Box position="absolute" top="0" width="100%">
+        <Box position="absolute" top="0" width="100%" zIndex="1000">
             <Flex justifyContent="space-between" maxWidth="80%" marginX="auto" paddingY="3rem" color="#fff">
                 <Flex>
                 {/* Logo */}
@@ -20,7 +20,7 @@ export default function Header() {
                 </Flex>
                 {/* Navigations */}
                 <Box>
-                    <Button color="#fff" background="transparent" border="0" padding="0">
+                    <Button color="#fff" background="transparent" border="0" padding="0" cursor="pointer">
                     <Box marginX="1.5rem"> Navigations </Box>
                     <svg xmlns="http://www.w3.org/2000/svg" width="28.826" height="21" viewBox="0 0 28.826 21">
                         <g id="Group_24750" data-name="Group 24750" transform="translate(-1845.174 -59)">
@@ -33,7 +33,7 @@ export default function Header() {
                 </Box>
                 {/* Lets Talk */}
                 <Box>
-                    <Flex>
+                    <Button color="#fff" background="transparent" border="0" padding="0" cursor="pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="21.535" height="17" viewBox="0 0 21.535 17">
                             <g id="Icon_feather-mail" data-name="Icon feather-mail" transform="translate(-1.607 -5)">
                                 <path id="Path_64010" data-name="Path 64010" d="M4.875,6h15A1.881,1.881,0,0,1,21.75,7.875v11.25A1.881,1.881,0,0,1,19.875,21h-15A1.881,1.881,0,0,1,3,19.125V7.875A1.881,1.881,0,0,1,4.875,6Z" fill="none" stroke="#06ebbf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
@@ -42,7 +42,7 @@ export default function Header() {
                         </svg>
                         <Box marginX="1.5rem"> Let's Talk </Box>
 
-                    </Flex>
+                    </Button>
                 </Box>
             </Flex>
         </Box>
