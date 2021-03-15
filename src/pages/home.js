@@ -14,7 +14,7 @@ const Home =  () => {
             <Box maxWidth="80%" marginX="auto" paddingY="3rem" color="#fff">
                 <Flex justifyContent="space-between">
                     <Box paddingTop="150px">
-                        <Heading as="h1" fontSize="100px" fontWeight="bold"> <Box fontWeight="100"> We are </Box>Digital Agency </Heading>
+                        <Heading as="h1" fontSize="60px" fontWeight="bold"> <span className="light">We are</span> Pixpers</Heading>
                         <Heading as="h3"> We're providing</Heading>
                         <Text> <span className="yellow"> /> </span> Web Applications {"{React, NodeJs, PHP, Ruby}"} </Text>
                         <Text> <span className="yellow"> /> </span> Database Design {"{MySQL, NoSQL, PostGreSQL, MERN}"} </Text>
@@ -27,6 +27,8 @@ const Home =  () => {
                         src="./assets/Group 24863.png"
                         position="absolute"
                         right="0"
+                        top="0"
+                        height="100%"
                     />
                 </Flex>
               
